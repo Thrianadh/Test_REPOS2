@@ -1,0 +1,679 @@
+
+{
+  "took" : 5,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 761375,
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo2ZCFYXfji_8jr9ESq",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  1 02:41:47 prod1 musicosityau-access: |1485916907|144.76.8.132|node/501841|Karnivool||0|JaQXPT-CqoPTOWSWNvpdpOOoDyrr-3YoXyvfgvaiR8k|536|MISS|Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)|48234496",
+          "@version" : "1",
+          "@timestamp" : "2017-02-01T02:41:47.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 28066274,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  1 02:41:47",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityau-access:",
+          "epoch" : 1485916907,
+          "ip" : "144.76.8.132",
+          "path" : "node/501841",
+          "title" : "Karnivool",
+          "uid" : "0",
+          "sid" : "JaQXPT-CqoPTOWSWNvpdpOOoDyrr-3YoXyvfgvaiR8k",
+          "timer" : 536,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)",
+          "peak_memory" : 48234496,
+          "received_at" : "2017-02-13T07:31:57.405Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS24940",
+            "asn" : "Hetzner Online GmbH",
+            "ip" : "144.76.8.132",
+            "country_code2" : "DE",
+            "country_code3" : "DEU",
+            "country_name" : "Germany",
+            "continent_code" : "EU",
+            "latitude" : 51.0,
+            "longitude" : 9.0,
+            "timezone" : "Europe/Berlin",
+            "location" : [
+              9.0,
+              51.0
+            ],
+            "coordinates" : [
+              9.0,
+              51.0
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo2aK6EXfji_8jr9Num",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  2 02:22:58 prod1 musicosityau-access: |1486002177|69.197.177.26|node/449187/calendar_artist/2016-12|Artist Calendar||0|GyxvakUXclEDOE2rVnW2cUpUxfxcCTV1faIysua7X4c|405|MISS|Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)|31719424",
+          "@version" : "1",
+          "@timestamp" : "2017-02-02T02:22:57.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 37668721,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  2 02:22:58",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityau-access:",
+          "epoch" : 1486002177,
+          "ip" : "69.197.177.26",
+          "path" : "node/449187/calendar_artist/2016-12",
+          "title" : "Artist Calendar",
+          "uid" : "0",
+          "sid" : "GyxvakUXclEDOE2rVnW2cUpUxfxcCTV1faIysua7X4c",
+          "timer" : 405,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)",
+          "peak_memory" : 31719424,
+          "received_at" : "2017-02-13T07:37:01.814Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS32097",
+            "asn" : "WholeSale Internet, Inc.",
+            "ip" : "69.197.177.26",
+            "country_code2" : "US",
+            "country_code3" : "USA",
+            "country_name" : "United States",
+            "continent_code" : "NA",
+            "region_name" : "MO",
+            "city_name" : "Kansas City",
+            "postal_code" : "64106",
+            "latitude" : 39.10679999999999,
+            "longitude" : -94.566,
+            "dma_code" : 616,
+            "area_code" : 816,
+            "timezone" : "America/Chicago",
+            "real_region_name" : "Missouri",
+            "location" : [
+              -94.566,
+              39.10679999999999
+            ],
+            "coordinates" : [
+              -94.566,
+              39.10679999999999
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo2bMHoXfji_8jr9WHt",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  3 03:45:16 prod1 musicosityau-access: |1486093515|151.80.41.169|node/497973|BIGSOUND||0|-kmwNC79U1VhwcUTjk2Hs-bqp_ic4wkvIn0Idk25bV4|346|MISS|Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)|29360128",
+          "@version" : "1",
+          "@timestamp" : "2017-02-03T03:45:15.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 46446753,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  3 03:45:16",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityau-access:",
+          "epoch" : 1486093515,
+          "ip" : "151.80.41.169",
+          "path" : "node/497973",
+          "title" : "BIGSOUND",
+          "uid" : "0",
+          "sid" : "-kmwNC79U1VhwcUTjk2Hs-bqp_ic4wkvIn0Idk25bV4",
+          "timer" : 346,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)",
+          "peak_memory" : 29360128,
+          "received_at" : "2017-02-13T07:43:06.518Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS16276",
+            "asn" : "OVH SAS",
+            "ip" : "151.80.41.169",
+            "country_code2" : "FR",
+            "country_code3" : "FRA",
+            "country_name" : "France",
+            "continent_code" : "EU",
+            "region_name" : "B4",
+            "city_name" : "Roubaix",
+            "latitude" : 50.694199999999995,
+            "longitude" : 3.174599999999998,
+            "timezone" : "Europe/Paris",
+            "real_region_name" : "Nord-Pas-de-Calais",
+            "location" : [
+              3.174599999999998,
+              50.694199999999995
+            ],
+            "coordinates" : [
+              3.174599999999998,
+              50.694199999999995
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo2ch5tXfji_8jr9iZ7",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  4 05:29:25 prod1 dday-access: |1486186164|194.44.171.95|node/12103|12 Warriston Street, Brighton||0|zsjeSBF0S6goZJ4BJJT0MQRGAQ_NpSDpMAI1X6bE9ak|959|cache|Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36|100401152",
+          "@version" : "1",
+          "@timestamp" : "2017-02-04T05:29:24.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 58763463,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  4 05:29:25",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "dday-access:",
+          "epoch" : 1486186164,
+          "ip" : "194.44.171.95",
+          "path" : "node/12103",
+          "title" : "12 Warriston Street, Brighton",
+          "uid" : "0",
+          "sid" : "zsjeSBF0S6goZJ4BJJT0MQRGAQ_NpSDpMAI1X6bE9ak",
+          "timer" : 959,
+          "cache" : "cache",
+          "user_agent" : "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
+          "peak_memory" : 100401152,
+          "received_at" : "2017-02-13T07:48:54.133Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS3255",
+            "asn" : "State Enterprise Scientific and Telecommunication Centre Ukrainian Academic and Research Netw",
+            "ip" : "194.44.171.95",
+            "country_code2" : "UA",
+            "country_code3" : "UKR",
+            "country_name" : "Ukraine",
+            "continent_code" : "EU",
+            "region_name" : "19",
+            "city_name" : "Rivne",
+            "latitude" : 50.623099999999994,
+            "longitude" : 26.22739999999999,
+            "timezone" : "Europe/Kiev",
+            "real_region_name" : "Rivnens'ka Oblast'",
+            "location" : [
+              26.22739999999999,
+              50.623099999999994
+            ],
+            "coordinates" : [
+              26.22739999999999,
+              50.623099999999994
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo2dcnFXfji_8jr9p8f",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  5 03:29:25 prod1 musicosityuk-access: |1486265365|5.255.250.29|node/926947|||0|14rKZOBY2mBl1Jhylj0oShnlzEDxMbi9RET-EPa0HV4|536|MISS|Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)|45875200",
+          "@version" : "1",
+          "@timestamp" : "2017-02-05T03:29:25.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 66201442,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  5 03:29:25",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityuk-access:",
+          "epoch" : 1486265365,
+          "ip" : "5.255.250.29",
+          "path" : "node/926947",
+          "uid" : "0",
+          "sid" : "14rKZOBY2mBl1Jhylj0oShnlzEDxMbi9RET-EPa0HV4",
+          "timer" : 536,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)",
+          "peak_memory" : 45875200,
+          "received_at" : "2017-02-13T07:51:20.830Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS13238",
+            "asn" : "Yandex LLC",
+            "ip" : "5.255.250.29",
+            "country_code2" : "RU",
+            "country_code3" : "RUS",
+            "country_name" : "Russian Federation",
+            "continent_code" : "EU",
+            "latitude" : 55.75,
+            "longitude" : 37.616600000000005,
+            "location" : [
+              37.616600000000005,
+              55.75
+            ],
+            "coordinates" : [
+              37.616600000000005,
+              55.75
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo2eiKyXfji_8jr9y4Z",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  6 12:53:20 ip-172-31-60-225 headon-access: |1486346000|163.172.65.4|flag/flag/favorite_this/11946|Flag||0|nmyyHCWLfSgiuQSbGFptjoyolEGDWZ2yvw6iJwHMSfI|45|MISS|Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)|8388608",
+          "@version" : "1",
+          "@timestamp" : "2017-02-06T01:53:20.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 75122368,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  6 12:53:20",
+          "syslog_hostname" : "ip-172-31-60-225",
+          "syslog_program" : "headon-access:",
+          "epoch" : 1486346000,
+          "ip" : "163.172.65.4",
+          "path" : "flag/flag/favorite_this/11946",
+          "title" : "Flag",
+          "uid" : "0",
+          "sid" : "nmyyHCWLfSgiuQSbGFptjoyolEGDWZ2yvw6iJwHMSfI",
+          "timer" : 45,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; AhrefsBot/5.2; +http://ahrefs.com/robot/)",
+          "peak_memory" : 8388608,
+          "received_at" : "2017-02-13T07:55:57.520Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS12876",
+            "asn" : "ONLINE S.A.S.",
+            "ip" : "163.172.65.4",
+            "country_code2" : "GB",
+            "country_code3" : "GBR",
+            "country_name" : "United Kingdom",
+            "continent_code" : "EU",
+            "region_name" : "M5",
+            "city_name" : "Southend",
+            "postal_code" : "SS2",
+            "latitude" : 51.5333,
+            "longitude" : 0.6999999999999886,
+            "timezone" : "Europe/London",
+            "real_region_name" : "Southend-on-Sea",
+            "location" : [
+              0.6999999999999886,
+              51.5333
+            ],
+            "coordinates" : [
+              0.6999999999999886,
+              51.5333
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVo7jG4uXfji_8jr-NhZ",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  7 01:33:45 prod1 musicosityuk-access: |1486431225|74.125.73.36|node/1081468|Chicane||0|T5864J3TspjA9KL3VxCb-Ps0mWBIUGH5rxDEAg3lzok|719|MISS|GoogleProducer; (+http://goo.gl/7y4SX)|79691776",
+          "@version" : "1",
+          "@timestamp" : "2017-02-07T01:33:45.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "stdin",
+          "offset" : 3486121,
+          "source" : "-",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  7 01:33:45",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityuk-access:",
+          "epoch" : 1486431225,
+          "ip" : "74.125.73.36",
+          "path" : "node/1081468",
+          "title" : "Chicane",
+          "uid" : "0",
+          "sid" : "T5864J3TspjA9KL3VxCb-Ps0mWBIUGH5rxDEAg3lzok",
+          "timer" : 719,
+          "cache" : "MISS",
+          "user_agent" : "GoogleProducer; (+http://goo.gl/7y4SX)",
+          "peak_memory" : 79691776,
+          "received_at" : "2017-02-14T07:34:10.607Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS15169",
+            "asn" : "Google Inc.",
+            "ip" : "74.125.73.36",
+            "country_code2" : "NL",
+            "country_code3" : "NLD",
+            "country_name" : "Netherlands",
+            "continent_code" : "EU",
+            "latitude" : 52.36670000000001,
+            "longitude" : 4.900000000000006,
+            "timezone" : "Europe/Amsterdam",
+            "location" : [
+              4.900000000000006,
+              52.36670000000001
+            ],
+            "coordinates" : [
+              4.900000000000006,
+              52.36670000000001
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVooUKZ0MqwVsdgB7rdu",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  8 15:24:36 ip-172-31-60-225 headon-access: |1486527875|66.249.66.108|node/31499|Fence line||0|FU1my9oV0AFfmj-Lxt-F7JJD0pxHIyUeN7m9-rQVBBE|198|MISS|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)|35651584",
+          "@version" : "1",
+          "@timestamp" : "2017-02-08T04:24:35.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "log",
+          "offset" : 20878135,
+          "source" : "/var/log/drupal/drupal-access.log",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  8 15:24:36",
+          "syslog_hostname" : "ip-172-31-60-225",
+          "syslog_program" : "headon-access:",
+          "epoch" : 1486527875,
+          "ip" : "66.249.66.108",
+          "path" : "node/31499",
+          "title" : "Fence line",
+          "uid" : "0",
+          "sid" : "FU1my9oV0AFfmj-Lxt-F7JJD0pxHIyUeN7m9-rQVBBE",
+          "timer" : 198,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+          "peak_memory" : 35651584,
+          "received_at" : "2017-02-10T13:28:41.562Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS15169",
+            "asn" : "Google Inc.",
+            "ip" : "66.249.66.108",
+            "country_code2" : "US",
+            "country_code3" : "USA",
+            "country_name" : "United States",
+            "continent_code" : "NA",
+            "region_name" : "CA",
+            "city_name" : "Mountain View",
+            "postal_code" : "94043",
+            "latitude" : 37.41919999999999,
+            "longitude" : -122.0574,
+            "dma_code" : 807,
+            "area_code" : 650,
+            "timezone" : "America/Los_Angeles",
+            "real_region_name" : "California",
+            "location" : [
+              -122.0574,
+              37.41919999999999
+            ],
+            "coordinates" : [
+              -122.0574,
+              37.41919999999999
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVooXx1BMqwVsdgB8Blr",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb  9 03:51:04 prod1 musicosityuk-access: |1486612261|73.230.153.76|home||http://www.musicosity.co.uk/|0|JEfJZ-YqDjFeGaLcnDsKpQPxviuTPg1ouATnivuE1bo|2693|MISS|Mozilla/5.0 (Windows NT 6.1; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0|78381056",
+          "@version" : "1",
+          "@timestamp" : "2017-02-09T03:51:01.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "log",
+          "offset" : 31790720,
+          "source" : "/var/log/drupal/drupal-access.log",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb  9 03:51:04",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityuk-access:",
+          "epoch" : 1486612261,
+          "ip" : "73.230.153.76",
+          "path" : "home",
+          "referrer" : "http://www.musicosity.co.uk/",
+          "uid" : "0",
+          "sid" : "JEfJZ-YqDjFeGaLcnDsKpQPxviuTPg1ouATnivuE1bo",
+          "timer" : 2693,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0",
+          "peak_memory" : 78381056,
+          "received_at" : "2017-02-10T14:11:57.994Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS7922",
+            "asn" : "Comcast Cable Communications, Inc.",
+            "ip" : "73.230.153.76",
+            "country_code2" : "US",
+            "country_code3" : "USA",
+            "country_name" : "United States",
+            "continent_code" : "NA",
+            "latitude" : 38.0,
+            "longitude" : -97.0,
+            "dma_code" : 0,
+            "area_code" : 0,
+            "location" : [
+              -97.0,
+              38.0
+            ],
+            "coordinates" : [
+              -97.0,
+              38.0
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      },
+      {
+        "_index" : "drupal",
+        "_type" : "drupal",
+        "_id" : "AVooYlHlMqwVsdgB8Mfe",
+        "_score" : 1.0,
+        "_source" : {
+          "message" : "Feb 10 02:16:57 prod1 musicosityuk-access: |1486693016|5.9.111.70|node/960454/calendar_artist/2017-03|Artist Calendar||0|_YYrO6vVs1fzpKeE20FQ1dBbdU9vqTSgzOMvsxF77nU|658|MISS|Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)|69206016",
+          "@version" : "1",
+          "@timestamp" : "2017-02-10T02:16:56.000Z",
+          "beat" : {
+            "hostname" : "dev1",
+            "name" : "dev1"
+          },
+          "count" : 1,
+          "fields" : null,
+          "input_type" : "log",
+          "offset" : 43628203,
+          "source" : "/var/log/drupal/drupal-access.log",
+          "type" : "drupal",
+          "host" : "dev1",
+          "tags" : [
+            "beats_input_codec_plain_applied"
+          ],
+          "syslog_timestamp" : "Feb 10 02:16:57",
+          "syslog_hostname" : "prod1",
+          "syslog_program" : "musicosityuk-access:",
+          "epoch" : 1486693016,
+          "ip" : "5.9.111.70",
+          "path" : "node/960454/calendar_artist/2017-03",
+          "title" : "Artist Calendar",
+          "uid" : "0",
+          "sid" : "_YYrO6vVs1fzpKeE20FQ1dBbdU9vqTSgzOMvsxF77nU",
+          "timer" : 658,
+          "cache" : "MISS",
+          "user_agent" : "Mozilla/5.0 (compatible; MJ12bot/v1.4.7; http://mj12bot.com/)",
+          "peak_memory" : 69206016,
+          "received_at" : "2017-02-10T14:17:07.335Z",
+          "received_from" : "dev1",
+          "geoip" : {
+            "number" : "AS24940",
+            "asn" : "Hetzner Online GmbH",
+            "ip" : "5.9.111.70",
+            "country_code2" : "DE",
+            "country_code3" : "DEU",
+            "country_name" : "Germany",
+            "continent_code" : "EU",
+            "latitude" : 51.0,
+            "longitude" : 9.0,
+            "timezone" : "Europe/Berlin",
+            "location" : [
+              9.0,
+              51.0
+            ],
+            "coordinates" : [
+              9.0,
+              51.0
+            ]
+          },
+          "syslog_severity_code" : 5,
+          "syslog_facility_code" : 1,
+          "syslog_facility" : "user-level",
+          "syslog_severity" : "notice"
+        }
+      }
+    ]
+  }
+}
+
+
